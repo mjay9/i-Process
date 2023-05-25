@@ -10,7 +10,7 @@ public class iProcess {
     public static void main(String[] args) {
         try {
             // Load the input image
-            BufferedImage inputImage = ImageIO.read(new File("input.jpg"));
+            BufferedImage inputImage = ImageIO.read(new File(https://github.com/mjay9/i-Process.github.io/blob/main/input.jpg));
 
             // Create the output image with the same dimensions
             BufferedImage outputImage = new BufferedImage(inputImage.getWidth(), inputImage.getHeight(), BufferedImage.TYPE_INT_RGB);
